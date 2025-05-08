@@ -8,7 +8,7 @@ import {
 
 export function ClassMenu() {
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div className="flex p-7">
       <Menubar>
         <MenubarMenu>
           <MenubarTrigger>Warrior</MenubarTrigger>
